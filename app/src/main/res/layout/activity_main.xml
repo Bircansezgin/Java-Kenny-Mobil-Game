@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="361dp"
+        android:layout_height="391dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="skorArttir"
+            app:layout_column="0"
+            app:layout_row="0"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="skorArttir"
+            app:layout_column="0"
+            app:layout_row="1"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="skorArttir"
+            app:layout_column="0"
+            app:layout_row="2"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="skorArttir"
+            app:layout_column="1"
+            app:layout_row="2"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="skorArttir"
+            app:layout_column="1"
+            app:layout_row="1"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="skorArttir"
+            app:layout_column="1"
+            app:layout_row="0"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="skorArttir"
+            app:layout_column="2"
+            app:layout_row="1"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="skorArttir"
+            app:layout_column="2"
+            app:layout_row="2"
+            app:srcCompat="@drawable/kenny" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:onClick="skorArttir"
+            app:layout_column="2"
+            app:layout_row="0"
+            app:srcCompat="@drawable/kenny" />
+    </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/sayacText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="151dp"
+        android:text="Sayac : 10"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/skorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="166dp"
+        android:layout_marginEnd="166dp"
+        android:layout_marginBottom="78dp"
+        android:text="Skor : 0"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
